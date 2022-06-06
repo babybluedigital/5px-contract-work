@@ -1,0 +1,89 @@
+<head>
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<style>
+
+.lottie-body {
+margin: 0px;
+}
+
+.lottie-section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex: 0;
+position: relative;
+max-height: 75vh;
+height: 100%;
+}
+
+.lottie-items {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-end;
+max-height: 80vh;
+height: 100%;
+padding: 0px 800px;
+width: 100%;
+column-gap: 40px;
+}
+
+.counter-box-count:nth-child(2) {
+background-color: #1a2b43 !important;
+min-height: 330px;
+}
+
+.counter-box-count {
+max-width: 300px;
+min-width: 300px;
+padding: 40px;
+background-color: #fcc44d !important;
+color: #fff;
+min-height: 230px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-bottom: -2px;
+}
+
+.counter-box-count h6 {
+ color: #fff !important;
+}
+
+</style>
+
+</head>
+
+<body class="lottie-body">
+
+<section>
+<div class="lottie-section">
+<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_xctgsit6.json" background="transparent" speed="1" loop autoplay></lottie-player>
+
+</div>
+
+<div class="lottie-items">
+
+<div class="counter-box-count">
+<span class="count">162</span>
+<h6 class="counter-box-headline heading-sm">Species of Duck</h6>
+</div>
+
+<div class="counter-box-count">
+<span class="count">11903</span>
+<h6 class="counter-box-headline heading-sm">Average number of feathers on a duck</h6>
+</div>
+
+</div>
+
+</section>
+
+</body>
